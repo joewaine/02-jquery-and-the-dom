@@ -7,7 +7,6 @@ Follow the submission instructions from Lab 01.
 ## Resources  
 [jQuery cheatsheet](https://oscarotero.com/jquery/)
 
-
 ## Configuration
 _Your repository must include:_
 
@@ -59,10 +58,8 @@ _Your repository must include:_
 
 - Refactor all `for` loops using the `.forEach()` method.
 
-
 ## Documentation
 _Your README.md must include:_
-
 
 # Project Name
 
@@ -70,17 +67,16 @@ _Your README.md must include:_
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-We are using a constructor function and jquery and functional programming practices to dynamically populate a blog with json data.
+We are using a constructor function and jQuery and functional programming practices to dynamically populate a blog with JSON data.
 
 ## Getting Started
-To get started, you can optionally run live server to check changes quickly. 
+To get started, you can optionally run live server to check changes quickly.
 
 ## Architecture
 Libraries: jQuery from Google CDN
-
 
 ## Change Log
 10-25-2017 - 11:35am -  Application now dynamically populates the index.html page with JSON data.
 
 ## Credits and Collaborations
-Jquery is used heavily
+JQuery is used heavily
