@@ -16,12 +16,11 @@ function Article (rawData) {
   this.authorUrl = rawData.authorUrl;
   this.publishedOn = rawData.publishedOn;
   this.body = rawData.body;
-
-};
+}
 
 Article.prototype.toHtml = function() {
-  // COMMENT: What is the benefit of cloning the article? (see the jQuery docs)
- // from the docs: .clone() is a convenient way to store a deep copy of an element and duplicate them on a page.
+// COMMENT: What is the benefit of cloning the article? (see the jQuery docs)
+// from the docs: .clone() is a convenient way to store a deep copy of an element and duplicate them on a page.
 
 
   let $newArticle = $('article.template').clone();
@@ -40,11 +39,11 @@ Article.prototype.toHtml = function() {
       4. article body, and
       5. publication date. */
 
-      $newArticle.find('address a').text(this.author);
-      $newArticle.find('a').attr('href', this.authorUrl);
-      $newArticle.find('h1').text(this.title);
-      $newArticle.find('.article-body').html(this.body);
-      $newArticle.find('time').attr('datetime', this.publishedOn);
+  $newArticle.find('address a').text(this.author);
+  $newArticle.find('a').attr('href', this.authorUrl);
+  $newArticle.find('h1').text(this.title);
+  $newArticle.find('.article-body').html(this.body);
+  $newArticle.find('time').attr('datetime', this.publishedOn);
 
 
 
